@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+@theme {
+  --color-chai-cream: #F9F6F0;
+  --color-chai-gold: #B89461;
+  --color-chai-brown: #3C2A21;
+  --font-serif: "Cormorant Garamond", serif;
+  --font-sans: "Inter", sans-serif;
+}
+
+/* Luxury Particle: Drifting and Fading */
+@keyframes luxury-drift {
+  0% { transform: translateY(0) translateX(0); opacity: 0; }
+  20% { opacity: 0.4; }
+  80% { opacity: 0.4; }
+  100% { transform: translateY(-40px) translateX(10px); opacity: 0; }
+}
+
+.animate-luxury-particle {
+  animation: luxury-drift linear infinite;
+}
+
+/* Rotating Mandala background for the logo */
+@keyframes slow-rotate {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.animate-slow-rotate {
+  animation: slow-rotate 60s linear infinite;
+}
