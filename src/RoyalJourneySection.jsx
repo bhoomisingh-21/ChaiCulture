@@ -91,7 +91,7 @@ const RoyalJourneySection = () => {
         {/* 2. Main Heading */}
         <div className="flex flex-col items-center text-center mb-10 sm:mb-12 md:mb-16 px-4">
           <h2 className="text-[#FAF7F2] text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-serif leading-tight tracking-tight max-w-4xl">
-            Bringing <span className="text-chai-gold italic font-light">Authentic Chai</span> to <br className="hidden sm:block" />
+            Bringing <span className="text-chai-gold italic font-light">Authentic Instant Chai</span> to <br className="hidden sm:block" />
             the American Workplace
           </h2>
         </div>
